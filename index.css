@@ -1,0 +1,47 @@
+.head_panel {
+	height: 800px;
+	background-image: url(images/background_header.jpg);
+}
+.nav {
+	margin-left: 30%;
+}
+.nav-link {
+	font-size: 1.4em;
+	color: white;
+}
+.nav-link:hover {
+	color: gray;
+	cursor: pointer;
+} 
+.navbar-nav {
+	margin-right: 50px;
+}
+.navbar-toggler {
+	background-color: white;
+}
+.head_panel_main_mainText {
+	color: #ffc200;
+	font-size: 5.5em;
+}
+.head_panel_main_text {
+	color: white;
+}
+.head_panel_main_button {
+	background-color: #ffc200;
+	color: #2f2f2f;
+	font-weight: 800;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+}
+.head_panel_main_button:hover {
+	background-color: #f9de88;
+}
+@media screen and (max-width: 900px) {
+	.text_head {
+		padding: 10px;
+		border-radius: 10px;
+		background-color: rgba(47,47,47,0.8);
+	}
+}
