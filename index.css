@@ -1,3 +1,10 @@
+@media screen and (min-width: 1450px) {
+	body {
+		width: 1450px;
+		margin: auto;
+	}
+}
+
 .head_panel {
 	height: 800px;
 	background-image: url(images/background_header.jpg);
@@ -50,6 +57,14 @@
 	margin: auto;
 	width: 400px;
 }
+.oriental {
+	height: 638px;
+	background-image: url('images/bck_oriental.jpg');
+}
+.oriental_text {
+	border-radius: 5px;
+	color: white;
+}
 @media screen and (max-width: 992px) {
 	.text_head {
 		padding: 10px;
@@ -62,6 +77,9 @@
 	.best_pics {
 		width: 200px;
 	}
+	.oriental {
+		text-align: center;
+	}
 }
 @media screen and (max-width: 770px) {
 	.best_pics {
@@ -71,6 +89,13 @@
 @media screen and (max-width: 510px) {
 	.best_seller {
 		height: 900px;
+	}
+	.oriental_text {
+		background-color: rgba(255,255,255,0.7);
+		color: black;
+	}
+	.oriental_img {
+		height: 200px;
 	}
 }
 @media screen and (max-width: 390px) {
