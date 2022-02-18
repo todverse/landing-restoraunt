@@ -38,10 +38,15 @@
 .head_panel_main_button:hover {
 	background-color: #f9de88;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
 	.text_head {
 		padding: 10px;
 		border-radius: 10px;
 		background-color: rgba(47,47,47,0.8);
+	}
+}
+@media screen and (max-width: 350px) {
+	.logo_nav {
+		width: 150px;
 	}
 }
