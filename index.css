@@ -38,15 +38,54 @@
 .head_panel_main_button:hover {
 	background-color: #f9de88;
 }
+.best_seller {
+	height: 800px;
+	text-align: center;
+}
+.best_seller_mainText {
+	padding-top: 50px;
+	font-size: 3em;
+}
+.best_seller_text {
+	margin: auto;
+	width: 400px;
+}
 @media screen and (max-width: 992px) {
 	.text_head {
 		padding: 10px;
 		border-radius: 10px;
 		background-color: rgba(47,47,47,0.8);
 	}
+	.best_seller_text {
+		width: 320px;
+	}
+	.best_pics {
+		width: 200px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.best_pics {
+		width: 140px;
+	}
+}
+@media screen and (max-width: 510px) {
+	.best_seller {
+		height: 900px;
+	}
+}
+@media screen and (max-width: 390px) {
+	.best_seller {
+		height: 950px;
+	}
 }
 @media screen and (max-width: 350px) {
 	.logo_nav {
 		width: 150px;
+	}
+	.best_seller_text {
+		width: 100%;
+	}
+	.best_seller {
+		height: 1250px;
 	}
 }
