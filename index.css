@@ -65,6 +65,115 @@
 	border-radius: 5px;
 	color: white;
 }
+.about {
+	height: 638px;
+	background-image: url('images/bck_about.jpg');
+	color: white;
+	text-align: center;
+}
+.about_mainText {
+	color: #ffc200;
+}
+.around_text {
+	width: 140px;
+	height: 140px;
+	border: 3px solid white;
+	border-radius: 100px;
+	padding-top: 30px;
+	margin: auto;
+	background-color: rgba(47,47,47,0.6);
+}
+.part_text {
+	color: #ffc200;
+}
+.row_about {
+	margin-top: 150px;
+}
+.chicken {
+	height: 638px;
+	background-image: url(images/bck_chicken.jpg);
+}
+.chicken_text {
+	border-radius: 5px;
+	color: white;
+}
+.row_chicken {
+	width: 90%;
+	margin: auto;
+}
+.yellow {
+	height: 638px;
+	background-image: url(images/bck_yellow.jpg);
+	text-align: center;
+}
+.yellow_text {
+	width: 80%;
+	margin: auto;
+	padding-top: 10%;
+	font-size: 1.5em;
+	font-family: Helvetica;
+}
+.yellow_mainText {
+	margin-top: 30px;
+	font-size: 4.5em;
+}
+.contact {
+	height: 638px;
+	background-image: url(images/bck_contact.jpg);
+	text-align: center;
+} 
+.contact_text {
+	width: 80%;
+	margin: auto;
+}
+.contact_Form {
+	width: 335px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 1px 1px 40px rgba(170,170,170,0.8);
+}
+.contact_form {
+	width: 230px;
+	height: 40px;
+	margin: 0;
+	border: none;
+}
+.contact_btn {
+	width: 100px;
+	height: 40px;
+	margin: 0;
+	border: none;
+	background-color: #ffc200;
+}
+.contact_form:hover {
+	outline: 1px solid black;
+}
+.contact_btn:hover {
+	outline: 1px solid black;
+}
+.footer {
+	height: 500px;
+	background-color: #303030;
+	padding-top: 100px;
+	color: white;
+}
+.row_footer {
+	width: 90%;
+	margin: auto;
+}
+.my-nav {
+	margin: 0px;
+}
+.my-nav-link {
+	padding-left: 0;
+	padding-right: 5px;
+}
+h1 {
+	font-family: 'Dancing Script', cursive;
+}
+h3 {
+	font-family: 'Dancing Script', cursive;
+}
 @media screen and (max-width: 992px) {
 	.text_head {
 		padding: 10px;
@@ -80,10 +189,32 @@
 	.oriental {
 		text-align: center;
 	}
+	.chicken {
+		text-align: center;
+	}
+	.chicken_img {
+		margin-top: 30px;
+	}
 }
 @media screen and (max-width: 770px) {
 	.best_pics {
 		width: 140px;
+	}
+	.row_footer {
+		width: 100%;
+	}
+	.footer {
+		height: 600px;
+	}
+}
+@media screen and (max-width: 580px) {
+	.footer {
+		height: 1000px;
+		text-align: center;
+	}
+	.my-nav {
+		width: 145px;
+		margin: auto;
 	}
 }
 @media screen and (max-width: 510px) {
@@ -97,10 +228,28 @@
 	.oriental_img {
 		height: 200px;
 	}
+	.yellow_text {
+		font-size: 1.2em;
+	}
+	.yellow_mainText {
+		font-size: 3.5em;
+	}
 }
 @media screen and (max-width: 390px) {
 	.best_seller {
 		height: 950px;
+	}
+	.row_about {
+		margin-top: 50px;
+	}
+	.contact_Form {
+		width: 250px;
+	}
+	.contact_form {
+		width: 150px;
+	}
+	.contact_btn {
+		width: 90px;
 	}
 }
 @media screen and (max-width: 350px) {
@@ -112,5 +261,29 @@
 	}
 	.best_seller {
 		height: 1250px;
+	}
+	.row_about {
+		margin-top: 0px;
+	}
+	.about {
+		height: 750px;
+	}
+	.row_chicken {
+		width: 100%;
+	}
+	.yellow_text {
+		font-size: 1em;
+	}
+	.yellow_mainText {
+		font-size: 2.5em;
+	}
+	.contact_Form {
+		width: 200px;
+	}
+	.contact_form {
+		width: 100px;
+	}
+	.contact_btn {
+		width: 90px;
 	}
 }
